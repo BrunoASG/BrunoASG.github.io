@@ -2,19 +2,59 @@
     <html lang="pt-br">
         <head>
             <meta charset="UTF-8">
-            <title>BrunoASG</title>            
+            <title>BrunoASG</title>
+            <style>
+
+                body {
+                    background-color: #D6CBC1;
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-size: 20px;
+                }
+
+                #nome {
+                    font-family: cursive;
+                    font-style: italic;
+                    text-align: center;
+                }
+
+                #indice{
+                    text-align: center;
+                    font-weight: bold;
+                }
+
+                a {
+                    color: #4b566a;
+                    text-decoration: none;
+                }                
+
+                .imagem{
+                    border: 5px solid grey; 
+                    text-align: center;  
+                }
+
+                #rodape {
+                    text-align: center;
+                }
+                
+                .link-trybe{
+                    text-align: center;
+                }
+
+
+
+            </style>            
         </head>
 
         <body>
 
-            <div>
-                <a href="#imagem">Imagem</a>|<a href="#paragrafo">Apresentação</a>|<a href="#habilidades">Habilidades</a>|<a href="#recomendacoes">Recomendações</a>
+            <div id="indice"> 
+                <a href="#imagem">Imagem</a> | <a href="#paragrafo">Apresentação</a> | <a href="#habilidades">Habilidades</a> | <a href="#recomendacoes">Recomendações</a>
             </div>
 
-            <h1>Bruno Amoretti Simalha Guimarães</h1>   
+            <h1 id="nome">Bruno Amoretti Simalha Guimarães</h1>   
 
-            <div id="imagem">         
-                <img src="fotoperfi.jpeg" alt="Imagem da minha pessoa de perfil" width="300px"> 
+            <div id="div-img">         
+                <img class="imagem" src="fotoperfi.jpeg" alt="Imagem da minha pessoa de perfil" width="300px"> 
             </div>
 
             <div id="paragrafo">
@@ -39,8 +79,7 @@
             <div id="recomendacoes">
                 <h3>Algumas Recomendações</h3>
                 <p>
-                    Para você que está iniciando no mundo DEV assim como eu, <br>
-                    alguns links para você pesquisar mais sobre!
+                    Para você que está iniciando no mundo DEV assim como eu, segue alguns links de canais do youtube de Devs para você pesquisar mais sobre!
                 </p>
                 <ul>
                     <li><a href="https://www.youtube.com/channel/UCyHOBY6IDZF9zOKJPou2Rgg" target="_blank" >Lucas Montano</a></li>
@@ -50,9 +89,13 @@
                 <p>
                     E caso você queira se preparar na mais conceituada instituição de ensino que irá te capacitar para entra no mercado de trabalho!
                     lhe indico a..... <br>
-                    <H1><a href="https://www.betrybe.com/" target="_blank">TRYBE</a></H1>
+                    <H1 class="link-trybe"><a href="https://www.betrybe.com/" target="_blank">TRYBE</a></H1>
                 </p>
             </div>  
+
+            <div id="rodape">
+                <h4>Todos os direitos reservados.</h4>
+            </div>
                 
 
                  
