@@ -35,14 +35,15 @@ a {
     text-align: center;
 }
 
-.link-trybe{
+.link-trybe {
     text-align: center;
 }
 
-#habilidades{
+#habilidades {
     
 }
 
 .link-img{
-    width: 50px;
+    width: 60px;
+    padding: 10px;
 }
